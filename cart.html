@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Sport Store - All Product</title>
 </head>
+
 <body>
     <div class="container">
         <!-- Navbar website -->
@@ -18,11 +24,10 @@
             </div>
             <nav>
                 <ul id="menuItems">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Account</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="product-detail.html">Product details</a></li>
+                    <li><a href="account.html">Account</a></li>
                 </ul>
             </nav>
             <img src="./images/cart.png" width="30px" height="30px">
@@ -118,7 +123,7 @@
                 <div class="footer-col-2">
                     <img src="./images/logo-white.png" alt="#">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Doloremque explicabo, hic unde impedit eveniet nemo temporibus!
                     </p>
                 </div>
@@ -149,14 +154,15 @@
     <script>
         var menuitems = document.getElementById("menuItems")
         menuitems.style.maxHeight = "0px"
-        function menutoggle(){
-            if(menuitems.style.maxHeight == "0px"){
+        function menutoggle() {
+            if (menuitems.style.maxHeight == "0px") {
                 menuitems.style.maxHeight = "200px"
             }
-            else{
+            else {
                 menuitems.style.maxHeight = "0px"
             }
         }
     </script>
 </body>
+
 </html>
